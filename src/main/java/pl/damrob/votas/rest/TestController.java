@@ -32,4 +32,11 @@ public class TestController {
     ResponseEntity<String> anetkaMethod() {
         return ResponseEntity.ok(TEXT);
     }
+
+
+    @GetMapping(value = "/mati")
+    ResponseEntity<String> matiMethod() {
+
+        return ResponseEntity.ok("Siemanko Mati!");
+    }
 }
