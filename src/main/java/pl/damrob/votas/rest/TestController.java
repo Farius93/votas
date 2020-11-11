@@ -33,7 +33,6 @@ public class TestController {
         return ResponseEntity.ok(TEXT);
     }
 
-
     @GetMapping(value = "/mati")
     ResponseEntity<String> matiMethod() {
 
