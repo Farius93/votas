@@ -18,10 +18,4 @@ public class TestController {
     ResponseEntity<String> java11Method() {
         return ResponseEntity.ok("Działa");
     }
-
-    @GetMapping(value = "/authenticate")
-    ResponseEntity<String> matiMethod() {
-
-        return ResponseEntity.ok("Zrób autentykacje");
-    }
 }
