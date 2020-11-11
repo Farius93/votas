@@ -14,6 +14,11 @@ public class TestController {
         return ResponseEntity.ok("Siemanko Kirwej, jestem online!, kiedy pijem?!");
     }
 
+    @GetMapping(value = "/java11")
+    ResponseEntity<String> java11Method() {
+        return ResponseEntity.ok("Działa");
+    }
+
     @GetMapping(value = "/authenticate")
     ResponseEntity<String> matiMethod() {
 
