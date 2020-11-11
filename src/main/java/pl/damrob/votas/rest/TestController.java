@@ -22,6 +22,6 @@ public class TestController {
     @GetMapping(value = "/authenticate")
     ResponseEntity<String> matiMethod() {
 
-        return ResponseEntity.ok("Siemanko Mati!");
+        return ResponseEntity.ok("Zrób autentykacje");
     }
 }
