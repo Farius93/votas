@@ -14,7 +14,7 @@ public class TestController {
         return ResponseEntity.ok("Siemanko Kirwej, jestem online!, kiedy pijem?!");
     }
 
-    @GetMapping(value = "/mati")
+    @GetMapping(value = "/authenticate")
     ResponseEntity<String> matiMethod() {
 
         return ResponseEntity.ok("Siemanko Mati!");
