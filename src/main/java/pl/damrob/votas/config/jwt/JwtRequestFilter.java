@@ -1,4 +1,4 @@
-package pl.damrob.votas.config;
+package pl.damrob.votas.config.jwt;
 
 import io.jsonwebtoken.ExpiredJwtException;
 import org.springframework.beans.factory.annotation.Autowired;

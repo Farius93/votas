@@ -9,13 +9,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class TestController {
 
-    @GetMapping(value = "/kirwej")
-    ResponseEntity<String> kirwejMethod() {
-        return ResponseEntity.ok("Siemanko Kirwej, jestem online!, kiedy pijem?!");
-    }
-
-    @GetMapping(value = "/java11")
+    @GetMapping(value = "/demo")
     ResponseEntity<String> java11Method() {
-        return ResponseEntity.ok("Działa");
+        return ResponseEntity.ok("Teraz masz token :D");
     }
 }

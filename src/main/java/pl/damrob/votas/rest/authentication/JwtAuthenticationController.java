@@ -8,8 +8,8 @@ import org.springframework.security.authentication.DisabledException;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.web.bind.annotation.*;
-import pl.damrob.votas.config.JwtTokenUtil;
-import pl.damrob.votas.config.JwtUserDetailsService;
+import pl.damrob.votas.config.jwt.JwtTokenUtil;
+import pl.damrob.votas.config.jwt.JwtUserDetailsService;
 
 @RestController
 @CrossOrigin

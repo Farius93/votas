@@ -1,4 +1,4 @@
-package pl.damrob.votas.config;
+package pl.damrob.votas.config.jwt;
 
 import java.util.ArrayList;
 
