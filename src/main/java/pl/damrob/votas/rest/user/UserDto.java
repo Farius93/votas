@@ -1,4 +1,4 @@
-package pl.damrob.votas.rest;
+package pl.damrob.votas.rest.user;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

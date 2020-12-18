@@ -1,4 +1,4 @@
-package pl.damrob.votas.rest.exceptionHandling;
+package pl.damrob.votas.rest.exceptions;
 
 import lombok.Value;
 

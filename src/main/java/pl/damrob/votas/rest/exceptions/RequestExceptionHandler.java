@@ -1,4 +1,4 @@
-package pl.damrob.votas.rest.exceptionHandling;
+package pl.damrob.votas.rest.exceptions;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;
@@ -12,7 +12,7 @@ import pl.damrob.votas.infrastructure.persistance.UserRepositoryImpl;
 
 import javax.servlet.http.HttpServletRequest;
 
-import static pl.damrob.votas.rest.exceptionHandling.ExceptionMessage.of;
+import static pl.damrob.votas.rest.exceptions.ExceptionMessage.of;
 
 @Slf4j
 @ControllerAdvice

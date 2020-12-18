@@ -1,4 +1,4 @@
-package pl.damrob.votas.rest;
+package pl.damrob.votas.rest.user;
 
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import lombok.RequiredArgsConstructor;
