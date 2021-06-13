@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.*;
 public class OnboardingController {
 
     @PutMapping("/register/{userId}")
-    @ApiResponse(ref = "200", description = "User updated")
+    @ApiResponse(ref = "201", description = "User updated")
     public ResponseEntity<OnboardingResponseBody> updateUser(
             @PathVariable("userId") String userId,
             @RequestBody OnboardingRequestBody onboardingRequestBody) {
