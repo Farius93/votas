@@ -20,6 +20,6 @@ public class LoginController {
             @RequestBody LoginRequestBody loginResponseBody) {
 
         log.warn("Method not implemented called");
-        return new ResponseEntity<>(new LoginResponseBody("not implemented", "not implemented"), HttpStatus.CREATED);
+        return new ResponseEntity<>(new LoginResponseBody(12345L, "not implemented", "not implemented"), HttpStatus.CREATED);
     }
 }
